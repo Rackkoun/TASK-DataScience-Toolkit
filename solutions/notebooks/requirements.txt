@@ -1,0 +1,9 @@
+# General requirement libs
+jupyterlab
+ipykernel
+ipywidgets
+python-dotenv
+missingno
+# for Database access
+SQLAlchemy
+psycopg2-binary
