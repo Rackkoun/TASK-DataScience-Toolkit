@@ -1,0 +1,40 @@
+{
+  "dataset_info": {
+    "n_customers": 89,
+    "n_features": 18,
+    "target_classes": [
+      "Frequent Buyers",
+      "High Spenders",
+      "Occasional Buyers",
+      "Regular Customers",
+      "VIP (High + Frequent)"
+    ],
+    "class_distribution": {
+      "Regular Customers": 46,
+      "VIP (High + Frequent)": 19,
+      "Occasional Buyers": 18,
+      "Frequent Buyers": 3,
+      "High Spenders": 3
+    }
+  },
+  "model_info": {
+    "model_type": "RandomForestClassifier",
+    "accuracy": 0.9565217391304348,
+    "n_estimators": 100,
+    "max_depth": 10,
+    "classes_in_training": [
+      "Frequent Buyers",
+      "High Spenders",
+      "Occasional Buyers",
+      "Regular Customers",
+      "VIP (High + Frequent)"
+    ],
+    "classes_in_test": [
+      "Frequent Buyers",
+      "High Spenders",
+      "Occasional Buyers",
+      "Regular Customers",
+      "VIP (High + Frequent)"
+    ]
+  }
+}
