@@ -1,0 +1,27 @@
+# --- Data Manipulation & Analysis ---
+numpy==1.26.4
+pandas==2.2.2
+scikit-learn==1.5.0
+imbalanced-learn==0.12.3
+statsmodels==0.14.2
+
+# --- Database Connectivity ---
+sqlalchemy
+psycopg2-binary     # PostgreSQL driver
+pymysql             # MySQL driver
+python-dotenv       # Credential management
+
+# --- Visualization ---
+altair==5.0.1
+matplotlib==3.7.1
+seaborn==0.12.2
+
+# --- Jupyter & Interactive Environment ---
+jupyterlab==3.6.3
+ipywidgets==8.0.6
+ipykernel
+jupyterlab-dash==0.1.0a3
+
+# --- Testing & Development ---
+pytest==7.3.1
+nbdime==4.0.2       # For diffing/merging Jupyter Notebooks
