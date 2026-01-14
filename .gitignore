@@ -143,6 +143,8 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+.tfvenv/
+.db_config.env # Contains DB credentials
 
 # Spyder project settings
 .spyderproject
